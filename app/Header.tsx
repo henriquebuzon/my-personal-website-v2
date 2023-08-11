@@ -11,7 +11,7 @@ const Header: FC = () => {
       <div className="relative flex flex-col items-center -mt-[10%] z-40 p-5">
         <Sun className="w-24 mb-3 z-40" />
 
-        <PlanetWithRing className="absolute -left-[19rem] top-72 w-60 rotate-[-324deg] z-40 hidden xl:block" />
+        <PlanetWithRing className="absolute -left-[18rem] top-64 w-64 rotate-[-324deg] z-40 hidden xl:block" />
 
         <h1 className="leading-loose text-white">
           Websites that are <br />

@@ -36,8 +36,8 @@ const HeaderBackgroundImages: FC = () => {
         <SpaceshipOFF className="absolute left-[80%] top-[32%] w-12" />
         <StarBackground className="absolute left-[90%] top-[53%] w-4 " />
         <StarBackground className="absolute left-[94%] top-[66%] w-7 " />
-        <SmallMeteor className="absolute left-[85%] top-[62%] w-12 rotate-12" />
-        <SmallerGreenPlanet className="absolute left-[72%] top-[75%] w-6" />
+        <SmallMeteor className="absolute left-[85%] top-[57%] w-12 rotate-12" />
+        <SmallerGreenPlanet className="absolute left-[68%] top-[75%] w-6" />
         <StarBackground className="absolute left-[78%] top-[80%] w-3" />
         <StarBackground className="absolute left-[65%] top-[82%] w-4" />
         <StarBackground className="absolute left-[47%] top-[84%] w-2" />
