@@ -4,7 +4,7 @@ interface Props {
   className: string
 }
 
-const GreenPlanet: FC<Props> = ({ className }) => {
+const PlanetWithRing: FC<Props> = ({ className }) => {
   return (
     <svg
       version="1.2"
@@ -1525,4 +1525,4 @@ const GreenPlanet: FC<Props> = ({ className }) => {
   )
 }
 
-export default GreenPlanet
+export default PlanetWithRing

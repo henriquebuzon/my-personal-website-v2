@@ -13,7 +13,7 @@ const GreenPlanet: FC<Props> = ({ className }) => {
       className={className}
     >
       <title>Green planet</title>
-      <style scoped>
+      <style>
         {`
           .green-planet .s0 { fill: #6cc069; } 
           .green-planet .s1 { fill: #9bd698; } 
