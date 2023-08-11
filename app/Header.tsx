@@ -15,7 +15,11 @@ const Header: FC = () => {
           </span>
         </h1>
 
-        <PlanetWithRing className="absolute -left-64 top-64 w-60 rotate-[-325deg]" />
+        <button className="px-12 py-4 bg-pink rounded-full border-dark-purple border-[3px] mt-5 text-dark-purple font-bold">
+          Tell me more
+        </button>
+
+        <PlanetWithRing className="absolute -left-[19rem] top-72 w-60 rotate-[-325deg]" />
       </div>{' '}
     </header>
   )
