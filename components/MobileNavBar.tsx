@@ -7,51 +7,28 @@ const MobileNavbar: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <nav className="fixed bg-white w-full z-50 h-[100px] flex items-center justify-center px-8">
+    <nav className="bg-white w-full flex items-center justify-center max-w-[1250px] h-[70px] rounded-b-3xl px-10 border-b-4 border-x-4 border-dark-purple absolute">
       <div className="flex justify-between w-screen">
         <Link href="/" className="font-semibold text-xl">
           HenriqueBM
         </Link>
         {isMenuOpen && (
-          <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-neutral-900 text-center text-orange-500">
-            <ul className="flex flex-col text-2xl space-y-6 font-medium">
+          <div className="absolute inset-0 flex justify-center items-center w-full h-screen bg-dark-purple text-center  z-50 text-white">
+            <ul className="flex flex-col items-center justify-center space-y-8 font-semibold text-2xl">
               <li>
-                <Link
-                  href="/energia-solar"
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                >
-                  Energia solar
-                </Link>
+                <Link href="/energia-solar">About</Link>
               </li>
               <li>
-                <Link
-                  href="/automacao-residencial"
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                >
-                  Automação residencial
-                </Link>
+                <Link href="/automacao-residencial">Work</Link>
               </li>
               <li>
-                <Link
-                  href="/home-cinema"
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                >
-                  Home cinema
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/quem-somos"
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                >
-                  Quem somos
-                </Link>
+                <Link href="/home-cinema">Contact</Link>
               </li>
             </ul>
           </div>
         )}
         <button
-          className="z-20"
+          className="z-50"
           aria-label="Toggle menu"
           type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
