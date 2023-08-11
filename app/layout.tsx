@@ -1,6 +1,8 @@
+import Navbar from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import MobileNavbar from '@/components/MobileNavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <div className="hidden xl:block">
+        <Navbar />
+      </div>
+      <div className="block xl:hidden">
+        <MobileNavbar />
+      </div>
       <body className={inter.className}>{children}</body>
     </html>
   )
