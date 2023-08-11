@@ -23,9 +23,10 @@ const HeaderBackgroundImages: FC = () => {
       <StarBackground className="absolute left-[18%] top-[29%] w-3 " />
       <SmallPurplePlanet className="absolute left-[17%] top-[12%] w-6" />
       <MediumGreenPlanet className="absolute left-[28%] top-[16%] w-8" />
-      <OutlinedPinkStar className="absolute left-[35%] top-[10%] w-8" />
-      <StarBackground className="absolute left-[47%] top-[12%] w-4 " />
-      <StarBackground className="absolute left-[63%] top-[11%] w-3 " />
+      <OutlinedPinkStar className="absolute left-[40%] top-[9%] w-8" />
+      <StarBackground className="absolute left-[47%] top-[10%] w-3 " />
+      <StarBackground className="absolute left-[60%] top-[8%] w-2 " />
+      <StarBackground className="absolute left-[66%] top-[11%] w-3 " />
       <StarBackground className="absolute left-[72%] top-[19%] w-8 " />
       <SmallerPurplePlanet className="absolute left-[84%] top-[14%] w-5 " />
       <StarBackground className="absolute left-[87%] top-[24%] w-3 " />
@@ -47,10 +48,11 @@ const HeaderBackgroundImages: FC = () => {
       <TealStar className="absolute left-[22%] top-[87%] w-4" />
       <StarBackground className="absolute left-[13%] top-[65%] w-4" />
       <StarBackground className="absolute left-[8%] top-[88%] w-2" />
-      <Galaxy className="absolute -left-12 top-[63%] w-40 opacity-75" />
-      <StarBackground className="absolute left-[3%] top-[54%] w-2" />
+      <Galaxy className="absolute -left-12 top-[63%] w-48 opacity-40 hidden 2xl:block" />
+      <StarBackground className="absolute left-16 top-[76%] w-4 block 2xl:hidden" />
+      <StarBackground className="absolute left-[3%] top-[49%] w-2" />
       <SmallGreyPlanet className="absolute left-[12%] top-[45%] w-4 " />
-      <GreenishPlanet className="absolute left-[6%] top-[30%] w-12 " />
+      <GreenishPlanet className="absolute left-[6%] top-[30%] w-10 " />
     </>
   )
 }

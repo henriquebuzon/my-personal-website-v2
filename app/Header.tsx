@@ -7,11 +7,11 @@ import GreenPlanet from '@/public/GreenPlanet'
 
 const Header: FC = () => {
   return (
-    <header className="relative h-screen flex items-center justify-center  text-center overflow-x-hidden">
+    <header className="relative h-screen flex items-center justify-center  text-center overflow-x-hidden z-50">
       <div className="relative flex flex-col items-center -mt-[10%] ">
-        <Sun className="w-24 mb-3 " />
+        <Sun className="w-24 mb-3 z-50" />
 
-        <PlanetWithRing className="absolute -left-[19rem] top-72 w-60 rotate-[-325deg]" />
+        <PlanetWithRing className="absolute -left-[19rem] top-72 w-60 rotate-[-325deg] z-50" />
 
         <h1 className="leading-loose text-white">
           Websites that are <br />
