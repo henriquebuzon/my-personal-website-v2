@@ -8,7 +8,7 @@ import GreenPlanet from '@/public/GreenPlanet'
 const Header: FC = () => {
   return (
     <header className="relative h-screen flex items-center justify-center  text-center">
-      <div className="relative flex flex-col items-center -mt-[12%] ">
+      <div className="relative flex flex-col items-center -mt-[10%] ">
         <Sun className="w-24 mb-3 " />
 
         <PlanetWithRing className="absolute -left-[19rem] top-72 w-60 rotate-[-325deg]" />
