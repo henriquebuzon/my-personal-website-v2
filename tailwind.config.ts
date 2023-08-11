@@ -13,6 +13,7 @@ const config: Config = {
         'normal-blue': '#2B609B',
         pink: '#FF61A4',
         yellow: '#FFCE62',
+        'dark-purple': '#260029',
       },
     },
   },

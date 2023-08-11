@@ -18,13 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div className="hidden xl:block">
-        <Navbar />
-      </div>
-      <div className="block xl:hidden">
-        <MobileNavbar />
-      </div>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-dark-blue text-dark-purple`}>
+        <div className="hidden xl:block">
+          <Navbar />
+        </div>
+        <div className="block xl:hidden">
+          <MobileNavbar />
+        </div>
+        {children}
+      </body>
     </html>
   )
 }

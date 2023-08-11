@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 const Navbar: FC = () => {
   return (
     <nav className="fixed w-full z-50  flex items-center justify-center px-8">
-      <div className="flex justify-between items-center w-screen max-w-[1250px]  bg-white h-[70px] rounded-b-3xl px-10 border-b-4 border-black">
+      <div className="flex justify-between items-center w-screen max-w-[1250px]  bg-white h-[70px] rounded-b-3xl px-10 border-b-4 border-x-4 border-dark-purple">
         <Link href="/" className="font-semibold text-xl">
           HenriqueBM
         </Link>
