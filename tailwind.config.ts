@@ -10,9 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         'dark-blue': '#122341',
-        'normal-blue': '#2B609B',
+        'text-blue': '#2B609B',
+        'medium-blue': '#2b609b',
+        'light-blue': '#90c2c3',
         pink: '#FF61A4',
         yellow: '#FFCE62',
+        gray: '#c8bcac',
         'dark-purple': '#260029',
       },
     },
