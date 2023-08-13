@@ -51,7 +51,7 @@ const HeaderBackgroundImages: FC = () => {
         <Galaxy className="absolute -left-12 top-[63%] w-48 opacity-40 hidden 2xl:block" />
         <StarBackground className="absolute left-16 top-[76%] w-4 block 2xl:hidden fill-gray" />
         <StarBackground className="absolute left-[3%] top-[49%] w-2 fill-medium-blue" />
-        <SmallGreyPlanet className="absolute left-[12%] top-[45%] w-4 " />
+        <SmallGreyPlanet className="absolute left-[12%] top-[40%] w-4 " />
         <GreenishPlanet className="absolute left-[6%] top-[30%] w-10 " />
         <StarBackground className="absolute left-[55%] top-[87%] w-3 fill-medium-blue" />
         <StarBackground className="absolute left-[82%] top-[25%] w-4 fill-gray" />
