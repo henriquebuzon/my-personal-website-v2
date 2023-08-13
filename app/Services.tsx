@@ -33,8 +33,7 @@ const Services = () => {
           <PerformanceIcon className="mb-5 w-[4.5rem]  fill-pink" />
           <h3 className="font-semibold mb-3 ">Performance</h3>
           <p>
-            High levels of speed and efficiency provide a seamless browsing
-            experience.
+            Maximum speed and efficiency provide a seamless browsing experience.
           </p>
         </div>
 
@@ -47,7 +46,7 @@ const Services = () => {
           </p>
         </div>
       </article>
-      <GreenPlanet className="absolute -top-[20.5rem] -right-32 z-40 w-[20rem] -rotate-45 hidden xl:block" />
+      <GreenPlanet className="absolute -top-[20.4rem] -right-32 z-40 w-[20rem] -rotate-45 hidden xl:block" />
       <MeteorOnfire className="absolute -bottom-32 -left-48 z-50 w-72 rotate-[54deg] hidden xl:block" />
     </section>
   )
