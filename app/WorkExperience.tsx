@@ -6,11 +6,11 @@ import React, { FC } from 'react'
 
 const WorkExperience: FC = () => {
   return (
-    <section className="w-full bg-white border-t-4 border-dark-purple pt-44 flex flex-col items-center space-y-20">
+    <section className="w-full bg-white border-t-4 border-dark-purple pt-60 flex flex-col items-center space-y-20">
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row justify-between">
         <div>
           <h2 className="font-extrabold text-5xl relative mb-5 lg:mb-10 w-fit">
-            <EmphasisWorkExperience className="absolute -top-12 -right-28 w-12" />
+            <EmphasisWorkExperience className="absolute -top-10 -right-32 w-12" />
             <span className="text-pink">Work</span> experience
           </h2>
           <p className="max-w-[80ch]">
@@ -21,13 +21,13 @@ const WorkExperience: FC = () => {
             generate.
           </p>
         </div>
-        <Satellite className="w-72" />
+        <Satellite className="w-60" />
       </article>
 
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row justify-between">
         <div>
           <h2 className="font-extrabold text-5xl relative mb-5 lg:mb-10 w-fit">
-            <EmphasisPersonalProjects className="absolute -top-12 -right-28 w-12" />
+            <EmphasisPersonalProjects className="absolute -top-10 -right-32 w-12" />
             <span className="text-pink">Personal</span> projects
           </h2>
           <p className="max-w-[80ch]">
@@ -38,7 +38,7 @@ const WorkExperience: FC = () => {
             generate.
           </p>
         </div>
-        <HomemadeSpaceship className="w-64" />
+        <HomemadeSpaceship className="w-60" />
       </article>
     </section>
   )
