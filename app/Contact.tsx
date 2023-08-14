@@ -1,18 +1,23 @@
 import EmphasisContact from '@/public/EmphasisContact'
 import React, { FC } from 'react'
+import ImagesContactForm from './ImagesContactForm'
 
 const Contact: FC = () => {
   return (
     <section className="bg-[#f1f1f1] w-full flex justify-center">
-      <div className="relative w-[1250px] flex flex-col justify-center items-center space-y-6 h-[900px]">
-        <h2 className="font-extrabold text-5xl relative text-center">
-          Interested in <br />{' '}
-          <span className="text-medium-blue">working together?</span>
-          <EmphasisContact className="absolute -top-12 -right-20 w-12" />
-        </h2>
-        <p>Make contact</p>
+      <div className="relative w-[1250px] flex flex-col justify-center items-center space-y-4 py-48">
+        <ImagesContactForm />
 
-        <form className="w-full max-w-md flex flex-col space-y-3">
+        <div className="flex flex-col space-y-6 items-center">
+          <h2 className="font-extrabold text-5xl relative text-center">
+            Interested in <br />{' '}
+            <span className="text-medium-blue">working together?</span>
+            <EmphasisContact className="absolute -top-12 -right-10 w-12" />
+          </h2>
+          <p>Make contact</p>
+        </div>
+
+        <form className="w-full max-w-lg flex flex-col space-y-3">
           <input
             type="text"
             className="bg-transparent py-4 rounded-full border-dark-purple border-[3px] mt-5 px-8 w-full"
