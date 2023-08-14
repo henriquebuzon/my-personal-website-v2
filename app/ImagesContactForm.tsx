@@ -14,7 +14,7 @@ const ImagesContactForm: FC = () => {
       <AlienHead className="absolute -top-24 w-40" />
       <div className="hidden lg:block">
         <AbducingAlienSpaceship className="absolute top-[8%] left-24 w-40" />
-        <MeteorTurnedOff className="absolute top-[43%] -left-10 w-20" />
+        <MeteorTurnedOff className="absolute top-[43%] -left-5 w-20" />
         <YellowThunder className="absolute top-[75%] left-14 w-44" />
 
         <PinkShootingStar className="absolute top-[8%] right-10 w-48" />
