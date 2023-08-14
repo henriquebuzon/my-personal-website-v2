@@ -4,12 +4,12 @@ import ImagesContactForm from './ImagesContactForm'
 
 const Contact: FC = () => {
   return (
-    <section className="bg-[#f1f1f1] w-full flex justify-center">
-      <div className="relative w-[1250px] flex flex-col justify-center items-center space-y-4 py-48">
+    <section className="bg-[#f1f1f1] w-full flex justify-center border-b-4 border-dark-purple">
+      <div className="relative w-full max-w-[1250px] flex flex-col justify-center items-center space-y-4 pb-48 pt-36 mx-3 lg:mx-10">
         <ImagesContactForm />
 
         <div className="flex flex-col space-y-6 items-center">
-          <h2 className="font-extrabold text-5xl relative text-center">
+          <h2 className="font-extrabold text-3xl lg:text-5xl relative text-center">
             Interested in <br />{' '}
             <span className="text-medium-blue">working together?</span>
             <EmphasisContact className="absolute -top-12 -right-10 w-12" />

@@ -1,4 +1,5 @@
 import AboutMeBG from '@/public/AboutMeBG'
+import Astronaut from '@/public/Astronaut'
 import EmphasisAboutMe from '@/public/EmphasisAboutMe'
 import StarCTA from '@/public/StarCTA'
 import { FC } from 'react'
@@ -6,7 +7,7 @@ import { FC } from 'react'
 const AboutMe: FC = () => {
   return (
     <section className="flex flex-col md:items-center justify-center text-white w-full px-5 md:px-20 -mb-[5.5rem]">
-      <h2 className="font-extrabold text-5xl relative mb-10 lg:mb-16">
+      <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-10 lg:mb-16">
         <EmphasisAboutMe className="absolute -top-12 -right-28 w-12" />
         About <span className="text-yellow">me</span>
       </h2>
@@ -26,7 +27,8 @@ const AboutMe: FC = () => {
         </p>
       </article>
 
-      <AboutMeBG className="w-full max-w-[1500px] " />
+      <AboutMeBG className="w-full max-w-[1500px] hidden lg:block" />
+      <Astronaut className="w-48 self-center block lg:hidden mb-10 lg:mb-0" />
 
       <StarCTA className="w-52 z-40 self-center" />
     </section>

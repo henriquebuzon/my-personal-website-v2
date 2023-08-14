@@ -6,10 +6,11 @@ import React, { FC } from 'react'
 
 const WorkExperience: FC = () => {
   return (
-    <section className="w-full bg-white border-t-4 border-dark-purple pt-60 flex flex-col items-center space-y-20 pb-36">
-      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row justify-between">
+    <section className="w-full bg-white border-t-4 border-dark-purple pt-32 lg:pt-60 flex flex-col items-center space-y-20 pb-36 px-3 lg:px-10">
+      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between space-y-8 lg:space-y-0">
+        <Satellite className="w-60" />
         <div>
-          <h2 className="font-extrabold text-5xl relative mb-5 lg:mb-10 w-fit">
+          <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
             <EmphasisWorkExperience className="absolute -top-10 -right-32 w-12" />
             <span className="text-pink">Work</span> experience
           </h2>
@@ -21,12 +22,12 @@ const WorkExperience: FC = () => {
             generate.
           </p>
         </div>
-        <Satellite className="w-60" />
       </article>
 
-      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row justify-between">
+      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between space-y-8 lg:space-y-0">
+        <HomemadeSpaceship className="w-60" />
         <div>
-          <h2 className="font-extrabold text-5xl relative mb-5 lg:mb-10 w-fit">
+          <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
             <EmphasisPersonalProjects className="absolute -top-10 -right-32 w-12" />
             <span className="text-pink">Personal</span> projects
           </h2>
@@ -38,7 +39,6 @@ const WorkExperience: FC = () => {
             generate.
           </p>
         </div>
-        <HomemadeSpaceship className="w-60" />
       </article>
     </section>
   )

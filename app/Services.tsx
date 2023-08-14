@@ -9,7 +9,9 @@ import PerformanceIcon from '@/public/PerformanceIcon'
 const Services = () => {
   return (
     <section className="relative flex flex-col justify-center max-w-[1250px] w-screen bg-white border-4 border-dark-purple rounded-3xl px-5 py-10 md:p-10 lg:px-20 lg:pt-16 lg:pb-[4.7rem] space-y-12 mb-20 lg:mb-36">
-      <p className="font-bold text-3xl">What makes them so special?</p>
+      <p className="font-bold text-xl lg:text-3xl">
+        What makes them so special?
+      </p>
       <article className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid- w-full gap-16 lg:gap-10 ">
         <div className="flex flex-col ">
           <ResponsiveIcon className="mb-5 w-[4.5rem] fill-pink" />
