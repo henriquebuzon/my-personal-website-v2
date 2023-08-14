@@ -1,4 +1,5 @@
 import AboutMe from './AboutMe'
+import Contact from './Contact'
 import Header from './Header'
 import Services from './Services'
 import WorkExperience from './WorkExperience'
@@ -12,6 +13,7 @@ export default function Home() {
         <Services />
         <AboutMe />
         <WorkExperience />
+        <Contact />
       </main>
     </>
   )

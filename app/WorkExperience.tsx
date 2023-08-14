@@ -6,7 +6,7 @@ import React, { FC } from 'react'
 
 const WorkExperience: FC = () => {
   return (
-    <section className="w-full bg-white border-t-4 border-dark-purple pt-60 flex flex-col items-center space-y-20">
+    <section className="w-full bg-white border-t-4 border-dark-purple pt-60 flex flex-col items-center space-y-20 pb-36">
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row justify-between">
         <div>
           <h2 className="font-extrabold text-5xl relative mb-5 lg:mb-10 w-fit">
