@@ -12,42 +12,42 @@ const Services = () => {
       <p className="font-bold text-xl lg:text-3xl">
         What makes them so special?
       </p>
-      <article className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid- w-full gap-16 lg:gap-10 ">
-        <div className="flex flex-col ">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid- w-full gap-16 lg:gap-10 ">
+        <li className="flex flex-col ">
           <ResponsiveIcon className="mb-5 w-[4.5rem] fill-pink" />
           <h3 className="font-semibold mb-3">Responsiveness</h3>
           <p>
             The ability to adapt to any screen size. From 4k monitors to compact
             mobile devices.
           </p>
-        </div>
+        </li>
 
-        <div className="flex flex-col ">
+        <li className="flex flex-col ">
           <AccessibilityIcon className="mb-5 w-[4.5rem]  fill-pink" />
           <h3 className="font-semibold mb-3 ">Accessibility</h3>
           <p>
             All users can enjoy the content, regardless of their disabilities or
             limitations.
           </p>
-        </div>
+        </li>
 
-        <div className="flex flex-col ">
+        <li className="flex flex-col ">
           <PerformanceIcon className="mb-5 w-[4.5rem]  fill-pink" />
           <h3 className="font-semibold mb-3 ">Performance</h3>
           <p>
             Maximum speed and efficiency provide a seamless browsing experience.
           </p>
-        </div>
+        </li>
 
-        <div className="flex flex-col ">
+        <li className="flex flex-col ">
           <MaintainabilityIcon className="mb-5 w-[4.5rem]  fill-pink" />
           <h3 className="font-semibold mb-3 ">Maintainability</h3>
           <p>
             Clean code and best practices make the codebase easy to understand
             and update.
           </p>
-        </div>
-      </article>
+        </li>
+      </ul>
       <GreenPlanet className="absolute -top-[20.4rem] -right-32 z-40 w-[20rem] -rotate-45 hidden xl:block" />
       <MeteorOnfire className="absolute -bottom-32 -left-48 z-50 w-72 rotate-[54deg] hidden xl:block" />
     </section>

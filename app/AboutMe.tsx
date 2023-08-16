@@ -12,13 +12,13 @@ const AboutMe: FC = () => {
         About <span className="text-yellow">me</span>
       </h2>
       <article className="flex flex-col lg:flex-row space-y-12 lg:space-x-12 lg:space-y-0 mb-10 lg:mb-5">
-        <p className="font-bold lg:text-right">
+        <strong className="font-bold lg:text-right">
           <span className="text-pink">7+</span> years of experience
           <br />
           <span className="text-pink">50+</span> customers satisfied
           <br />
           <span className="text-pink">500+</span> open source contributions
-        </p>
+        </strong>
         <p className="max-w-[40ch]">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo
           numquam laborum harum illum rem excepturi sed enim porro deserunt

@@ -14,32 +14,38 @@ const Footer: FC = () => {
       <div className="w-full z-50  flex flex-col md:flex-row items-center justify-center text-dark-purple text-sm gap-5">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center w-screen max-w-[1250px]  bg-white  rounded-t-3xl p-10 border-t-4 border-x-4 border-dark-purple gap-5 md:gap-0">
           <p className="opacity-80">
-            © Copyright 2021 by{' '}
-            <span className="font-semibold">Henrique Buzon</span>
+            &copy; Copyright 2021 by{' '}
+            <strong className="font-semibold">Henrique Macedo</strong>
           </p>
-          <div className="flex flex-row font-semibold gap-5">
-            <a
-              href="https://www.linkedin.com/in/henriquebuzon/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://www.github.com/in/henriquebuzon/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/henrique/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-          </div>
+          <ul className="flex flex-row font-semibold gap-8 ">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/henriquebuzon/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.github.com/in/henriquebuzon/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/henrique/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
