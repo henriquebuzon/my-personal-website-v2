@@ -13,18 +13,24 @@ const AboutMe: FC = () => {
       </h2>
       <article className="flex flex-col lg:flex-row space-y-12 lg:space-x-12 lg:space-y-0 mb-10 lg:mb-5">
         <strong className="font-bold lg:text-right">
-          <span className="text-pink">7+</span> years of experience
+          <span className="text-pink">9+</span> years of experience
           <br />
           <span className="text-pink">50+</span> customers satisfied
           <br />
           <span className="text-pink">500+</span> open source contributions
         </strong>
-        <p className="max-w-[40ch]">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo
-          numquam laborum harum illum rem excepturi sed enim porro deserunt
-          totam cumque ut, doloremque placeat ratione. Aspernatur enim corporis
-          omnis.
-        </p>
+        <div className="max-w-[40ch] flex flex-col gap-4">
+          <p>
+            I'm a full-stack software developer and UX/UI designer who had the
+            pleasure of working on dozens of both web and mobile applications.
+          </p>
+
+          <p>
+            When I'm not immersed in lines of code, I'm out exploring. Whether
+            it's a new hiking trail or the mysteries of the cosmos in astronomy
+            documentaries, I'm fueled by curiosity.
+          </p>
+        </div>
       </article>
 
       <AboutMeBG className="w-full max-w-[1500px] hidden lg:block" />
