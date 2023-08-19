@@ -22,7 +22,7 @@ const AboutMe: FC = () => {
         <div className="max-w-[40ch] flex flex-col gap-4">
           <p>
             I'm a full-stack software developer and UX/UI designer who had the
-            pleasure of working on dozens of both web and mobile applications.
+            pleasure of working on both web and mobile applications.
           </p>
 
           <p>
