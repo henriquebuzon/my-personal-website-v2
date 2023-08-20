@@ -60,7 +60,7 @@ const WorkExperience: FC = () => {
             </div>
             <div className="flex flex-col space-y-3">
               <h3 className="text-xl font-bold">
-                Web developer & UX/UI designer | Freelance
+                Web developer & UX/UI designer @ Freelance
               </h3>
               <em className="opacity-80">2015 - 2020</em>
               <ul className="max-w-[80ch] list-disc ml-7 flex flex-col space-y-2">
