@@ -1,9 +1,7 @@
 import PlanetWithRing from '@/public/PlanetWithRing'
-import StarBackground from '@/public/StarBackground'
 import Sun from '@/public/Sun'
-import React, { FC } from 'react'
+import { FC } from 'react'
 import HeaderBackgroundImages from './HeaderBackgroundImages'
-import GreenPlanet from '@/public/GreenPlanet'
 
 const Header: FC = () => {
   return (
