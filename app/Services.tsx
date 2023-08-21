@@ -48,7 +48,7 @@ const Services = () => {
           </p>
         </li>
       </ul>
-      <GreenPlanet className="absolute -top-[22rem] -right-[8.5rem] z-40 w-[22rem] -rotate-45 hidden xl:block" />
+      <GreenPlanet className="absolute -top-[22.3rem] -right-[8.4rem] z-40 w-[22rem] -rotate-45 hidden xl:block" />
       <MeteorOnfire className="absolute -bottom-32 -left-48 z-50 w-72 rotate-[54deg] hidden xl:block" />
     </section>
   )

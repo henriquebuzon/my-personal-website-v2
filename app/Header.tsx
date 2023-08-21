@@ -7,7 +7,7 @@ const Header: FC = () => {
   return (
     <header className="relative h-screen flex items-center justify-center  text-center overflow-x-hidden min-h-[800px] max-h-[1400px] mb-[-70px]">
       <div className="relative flex flex-col items-center -mt-[10%] z-40 p-5">
-        <Sun className="w-24 mb-3 z-40" />
+        <Sun className="w-24 mb-3 z-40 " />
 
         <PlanetWithRing className="absolute -left-[18rem] top-64 w-[18rem] rotate-[-324deg] z-40 hidden xl:block" />
 
