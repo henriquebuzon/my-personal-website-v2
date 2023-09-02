@@ -1,3 +1,6 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import React, { FC } from 'react'
 
 interface Props {
@@ -6,14 +9,19 @@ interface Props {
 
 const MeteorTurnedOff: FC<Props> = ({ className }) => {
   return (
-    <svg
+    <motion.svg
       version="1.2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 90 88"
       className={className}
+      animate={{ y: [2, -2, 2] }}
+      transition={{
+        ease: 'easeInOut',
+        duration: 2.5,
+        repeat: Infinity,
+        repeatType: 'reverse',
+      }}
     >
-      <title>Asteroid</title>
-
       <style>
         {`.asteroid .s0 { fill: #bd9276 } 
 		.asteroid .s1 { fill: #866852 } 
@@ -156,7 +164,7 @@ const MeteorTurnedOff: FC<Props> = ({ className }) => {
           />
         </g>
       </g>
-    </svg>
+    </motion.svg>
   )
 }
 

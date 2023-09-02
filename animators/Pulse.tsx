@@ -5,14 +5,13 @@ import { motion } from 'framer-motion'
 
 interface Props {
   children: ReactNode
-  delay?: number
 }
 
-const Pulse: FC<Props> = ({ children, delay }) => {
+const Pulse: FC<Props> = ({ children }) => {
   return (
     <motion.div
-      animate={{ scale: [1, 1.05, 1] }}
-      transition={{ ease: 'easeInOut', duration: 1.5, repeat: Infinity }}
+      animate={{ scale: [1, 1.03, 1] }}
+      transition={{ ease: 'linear', duration: 1.5, repeat: Infinity }}
     >
       {children}
     </motion.div>

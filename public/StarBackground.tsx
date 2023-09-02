@@ -14,10 +14,10 @@ const StarBackground: FC<Props> = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 28 32"
       className={className}
-      animate={{ scale: [1, 1.4, 1] }}
+      animate={{ scale: [1, 1.3, 1] }}
       transition={{
-        ease: 'easeInOut',
-        duration: Math.random() * 0.5 + 1.2,
+        ease: 'linear',
+        duration: Math.random() * 0.2 + 1.7,
         repeat: Infinity,
       }}
     >

@@ -11,7 +11,7 @@ const AboutMe: FC = () => {
         <EmphasisAboutMe className="absolute -top-12 -right-28 w-12" />
         About <span className="text-yellow">me</span>
       </h2>
-      <article className="flex flex-col lg:flex-row space-y-12 lg:space-x-12 lg:space-y-0 mb-10 lg:mb-5">
+      <article className="flex flex-col lg:flex-row space-y-12 lg:space-x-12 lg:space-y-0 mb-0 lg:mb-5">
         <strong className="font-bold lg:text-right">
           <span className="text-pink">9+</span> years of experience
           <br />
@@ -33,7 +33,7 @@ const AboutMe: FC = () => {
         </div>
       </article>
 
-      <AboutMeBG className="w-full max-w-[1500px] hidden lg:block" />
+      <AboutMeBG className="w-full max-w-[1200px] hidden lg:block" />
       <Astronaut className="w-48 self-center block lg:hidden mb-10 lg:mb-0" />
 
       <StarCTA className="w-52 z-40 self-center" />

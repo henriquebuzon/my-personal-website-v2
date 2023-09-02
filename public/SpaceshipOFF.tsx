@@ -1,3 +1,6 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import React, { FC } from 'react'
 
 interface Props {
@@ -6,11 +9,18 @@ interface Props {
 
 const SpaceshipOFF: FC<Props> = ({ className }) => {
   return (
-    <svg
+    <motion.svg
       version="1.2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 76 134"
       className={className}
+      animate={{ y: -5 }}
+      transition={{
+        ease: 'easeInOut',
+        duration: Math.random() * 0.5 + 1,
+        repeat: Infinity,
+        repeatType: 'reverse',
+      }}
     >
       <title>Space ship turned off</title>
 
@@ -171,7 +181,7 @@ const SpaceshipOFF: FC<Props> = ({ className }) => {
           />
         </g>
       </g>
-    </svg>
+    </motion.svg>
   )
 }
 

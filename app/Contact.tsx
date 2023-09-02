@@ -36,7 +36,7 @@ const Contact: FC = () => {
   }
 
   return (
-    <section className="bg-[#f1f1f1] w-full flex justify-center border-b-4 border-dark-purple">
+    <section className="bg-neutral-100 w-full flex justify-center  border-dark-purple">
       <div className="relative w-full max-w-[1250px] flex flex-col justify-center items-center space-y-4 pb-48 pt-32 mx-3 lg:mx-10">
         <ImagesContactForm />
 

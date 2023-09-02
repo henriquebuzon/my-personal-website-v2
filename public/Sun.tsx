@@ -16,7 +16,6 @@ const Sun: FC<Props> = ({ className }) => {
           viewBox="0 0 175 180"
           className={className}
         >
-          <title>Sun</title>
           <style>
             {`.sun .s0 { fill: #f2c45d }
             .sun .s1 { fill: #efa54c }

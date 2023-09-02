@@ -1,3 +1,6 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import React, { FC } from 'react'
 
 interface Props {
@@ -6,14 +9,18 @@ interface Props {
 
 const GreenPlanet: FC<Props> = ({ className }) => {
   return (
-    <svg
+    <motion.svg
       version="1.2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 89 82"
       className={className}
+      animate={{ y: [-5, 5, -5] }}
+      transition={{
+        ease: 'easeInOut',
+        duration: Math.random() * 0.5 + 3,
+        repeat: Infinity,
+      }}
     >
-      <title>Medium size green planet</title>
-
       <style>
         {`.medium-green .s0 { fill: #067e82 } 
 		.medium-green .s1 { fill: #260029 } `}
@@ -267,7 +274,7 @@ const GreenPlanet: FC<Props> = ({ className }) => {
           />
         </g>
       </g>
-    </svg>
+    </motion.svg>
   )
 }
 

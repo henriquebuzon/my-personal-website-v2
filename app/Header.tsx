@@ -11,7 +11,7 @@ const Header: FC = () => {
 
         <PlanetWithRing className="absolute -left-[18rem] top-64 w-[18rem] rotate-[-324deg] z-40 hidden xl:block" />
 
-        <h1 className="leading-loose text-white">
+        <h1 className="leading-loose text-neutral-100">
           Websites that are <br />
           <span className="text-5xl xl:text-6xl 2xl:text-7xl font-black tracking-tight">
             OUT OF THIS WORLD

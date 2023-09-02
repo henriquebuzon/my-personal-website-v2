@@ -1,3 +1,6 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import React, { FC } from 'react'
 
 interface Props {
@@ -6,11 +9,19 @@ interface Props {
 
 const PlanetWithRing: FC<Props> = ({ className }) => {
   return (
-    <svg
+    <motion.svg
       version="1.2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 233 130"
       className={className}
+      animate={{ y: [5, -5, 5] }}
+      transition={{
+        ease: 'easeInOut',
+        duration: 2.5,
+        repeat: Infinity,
+        repeatType: 'reverse',
+      }}
+      style={{ rotate: '-324deg' }}
     >
       <title>Planet with ring</title>
       <style>
@@ -1520,8 +1531,7 @@ const PlanetWithRing: FC<Props> = ({ className }) => {
           />
         </g>
       </g>
-      <use id="Background" href="#img1" x="-510" y="-267" />
-    </svg>
+    </motion.svg>
   )
 }
 
