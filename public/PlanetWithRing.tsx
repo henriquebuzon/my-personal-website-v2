@@ -14,14 +14,13 @@ const PlanetWithRing: FC<Props> = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 233 130"
       className={className}
-      animate={{ y: [5, -5, 5] }}
+      animate={{ y: -10 }}
       transition={{
-        ease: 'easeInOut',
-        duration: 2.5,
+        duration: 1.5,
         repeat: Infinity,
         repeatType: 'reverse',
+        delay: 0.3,
       }}
-      style={{ rotate: '-324deg' }}
     >
       <title>Planet with ring</title>
       <style>

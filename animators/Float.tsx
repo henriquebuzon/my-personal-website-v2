@@ -12,7 +12,7 @@ const Float: FC<Props> = ({ children, delay }) => {
   return (
     <motion.div
       animate={{ y: [0, -10, 0] }}
-      transition={{ ease: 'backInOut', duration: 1.5, repeat: Infinity }}
+      transition={{ duration: 3, repeat: Infinity }}
     >
       {children}
     </motion.div>

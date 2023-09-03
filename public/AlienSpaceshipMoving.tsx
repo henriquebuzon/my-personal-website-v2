@@ -14,12 +14,12 @@ const AlienSpaceshipMoving: FC<Props> = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 181 128"
       className={className}
-      animate={{ y: [-5, 5, -5] }}
+      animate={{ y: -10 }}
       transition={{
-        ease: 'easeInOut',
-        duration: 3,
+        duration: 1.5,
         repeat: Infinity,
         repeatType: 'reverse',
+        delay: 0.2,
       }}
     >
       <style>

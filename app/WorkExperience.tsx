@@ -1,3 +1,4 @@
+import Float from '@/animators/Float'
 import EmphasisPersonalProjects from '@/public/EmphasisPersonalProjects'
 import EmphasisWorkExperience from '@/public/EmphasisWorkExperience'
 import HomemadeSpaceship from '@/public/HomemadeSpaceship'
@@ -6,9 +7,11 @@ import React, { FC } from 'react'
 
 const WorkExperience: FC = () => {
   return (
-    <section className="w-full bg-white border-t-4 border-dark-purple pt-32 lg:pt-60 flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10">
+    <section className="w-full flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10">
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between items-start space-y-8 lg:space-y-0">
-        <Satellite className="w-full max-w-xs" />
+        <Float>
+          <Satellite className="w-full max-w-xs" />
+        </Float>
         <div>
           <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
             <EmphasisWorkExperience className="absolute -top-10 -right-32 w-12" />
@@ -98,6 +101,7 @@ const WorkExperience: FC = () => {
 
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between space-y-8 lg:space-y-0 items-start">
         <HomemadeSpaceship className="w-full max-w-[18rem]" />
+
         <div>
           <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
             <EmphasisPersonalProjects className="absolute -top-10 -right-32 w-12" />

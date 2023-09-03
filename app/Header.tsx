@@ -1,20 +1,21 @@
-import PlanetWithRing from '@/public/PlanetWithRing'
-import Sun from '@/public/Sun'
+import HeaderImageLeft from '@/public/HeaderImageLeft'
+import HeaderImageRight from '@/public/HeaderImageRight'
+import PlanetWithFlag from '@/public/PlanetWithFlag'
 import { FC } from 'react'
-import HeaderBackgroundImages from './HeaderBackgroundImages'
 
 const Header: FC = () => {
   return (
-    <header className="relative h-screen flex items-center justify-center  text-center overflow-x-hidden min-h-[800px] max-h-[1400px] mb-[-70px]">
-      <div className="relative flex flex-col items-center -mt-[10%] z-40 p-5">
-        <Sun className="w-24 mb-3 z-40 " />
+    <header className="flex items-center justify-center text-center space-x-24 my-20 max-w-[1800px] mx-auto">
+      <HeaderImageLeft className="w-[23vw]" />
 
-        <PlanetWithRing className="absolute -left-[18rem] top-64 w-[18rem] rotate-[-324deg] z-40 hidden xl:block" />
+      <div className="flex flex-col items-center p-5 pb-16">
+        <PlanetWithFlag className="w-36 mb-5 " />
 
-        <h1 className="leading-loose text-neutral-100">
-          Websites that are <br />
-          <span className="text-5xl xl:text-6xl 2xl:text-7xl font-black tracking-tight">
-            OUT OF THIS WORLD
+        <h1 className="leading-loose">
+          I build websites that are <br />
+          <span className="text-5xl xl:text-6xl 2xl:text-[6rem] font-black tracking-tight">
+            OUT OF THIS{' '}
+            <span className="text-medium-blue block -mt-3">WORLD</span>
           </span>
         </h1>
 
@@ -23,7 +24,7 @@ const Header: FC = () => {
         </button>
       </div>
 
-      <HeaderBackgroundImages />
+      <HeaderImageRight className="w-[23vw]" />
     </header>
   )
 }

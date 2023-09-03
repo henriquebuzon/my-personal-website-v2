@@ -16,12 +16,10 @@ const GreenPlanet: FC<Props> = ({ className }) => {
       className={className}
       animate={{ y: -10 }}
       transition={{
-        ease: 'easeInOut',
-        duration: Math.random() * 0.5 + 1,
+        duration: 1.5,
         repeat: Infinity,
         repeatType: 'reverse',
       }}
-      style={{ rotate: '-45deg' }}
     >
       <style>
         {`
