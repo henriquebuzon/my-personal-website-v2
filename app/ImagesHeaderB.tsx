@@ -10,7 +10,7 @@ const ImagesHeaderB: FC = () => {
   return (
     <>
       <div className="hidden lg:block">
-        <GreenPlanet className="absolute top-40 left-10 w-36" />
+        <GreenPlanet className="absolute top-36 left-10 w-36" />
         <MeteorOnfire className="absolute bottom-20 left-10 w-48 " />
 
         <SpaceshipOFF className="absolute top-20 right-16 w-24" />

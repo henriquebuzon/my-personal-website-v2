@@ -6,37 +6,54 @@ import { FC } from 'react'
 
 const AboutMe: FC = () => {
   return (
-    <section className="flex flex-col md:items-center justify-center text-white w-full px-5 md:px-20 -mb-[5.5rem]">
-      <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-10 lg:mb-16">
-        <EmphasisAboutMe className="absolute -top-12 -right-28 w-12" />
-        About <span className="text-yellow">me</span>
-      </h2>
-      <article className="flex flex-col lg:flex-row space-y-12 lg:space-x-12 lg:space-y-0 mb-0 lg:mb-5">
-        <strong className="font-bold lg:text-right">
-          <span className="text-pink">9+</span> years of experience
-          <br />
-          <span className="text-pink">50+</span> customers satisfied
-          <br />
-          <span className="text-pink">500+</span> open source contributions
-        </strong>
-        <div className="max-w-[40ch] flex flex-col gap-4">
-          <p>
-            I'm a full-stack software developer and UX/UI designer who had the
-            pleasure of working on both web and mobile applications.
-          </p>
-
-          <p>
-            When I'm not immersed in lines of code, I'm out exploring. Whether
-            it's a new hiking trail or the mysteries of the cosmos in astronomy
-            documentaries, I'm fueled by curiosity.
-          </p>
+    <section className="w-full flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10">
+      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between items-start space-y-8 lg:space-y-0 gap-44">
+        <Astronaut className="w-1/4 max-w-xs" />
+        <div>
+          <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
+            {/* <EmphasisWorkExperience className="absolute -top-10 -right-32 w-12" /> */}
+            <span className="text-pink">About</span> me
+          </h2>
+          <div className="flex flex-col space-y-10">
+            <div className="flex flex-col space-y-3">
+              <h3 className="text-xl font-bold">
+                Full-stack software engineer & UX/UI designer @{' '}
+                <a href="" className="text-dark-blue underline">
+                  Hi-tec Inovações
+                </a>
+              </h3>
+              <em className="opacity-80">2020 - Present</em>
+              <ul className="max-w-[80ch] list-disc ml-7 flex flex-col space-y-2">
+                <li>
+                  Revitalized the company's online presence by completely
+                  redesigning and rebuilding the previous and outdated website.
+                  I utilized Figma for the designing and Typescript, React,
+                  Next.JS and Tailwind for the development. The result was a
+                  modern-looking, responsive and dynamic user interface that
+                  received many compliments from co-workers and clients.
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-col space-y-3">
+              <h3 className="text-xl font-bold">
+                Web developer & UX/UI designer @ Freelance
+              </h3>
+              <em className="opacity-80">2015 - 2020</em>
+              <ul className="max-w-[80ch] list-disc ml-7 flex flex-col space-y-2">
+                <li>
+                  Executed various web and mobile projects for clients from
+                  several countries and industries. Mostly using HTML, CSS,
+                  Javascript, React, Typescript, React and React Native.
+                </li>
+                <li>
+                  Maintained a 4.7 rating on Fiverr by consistently delivering
+                  high-quality solutions on time and within budget.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </article>
-
-      <AboutMeBG className="w-full max-w-[1200px] hidden lg:block" />
-      <Astronaut className="w-48 self-center block lg:hidden mb-10 lg:mb-0" />
-
-      <StarCTA className="w-52 z-40 self-center" />
     </section>
   )
 }

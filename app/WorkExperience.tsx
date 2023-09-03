@@ -8,10 +8,8 @@ import React, { FC } from 'react'
 const WorkExperience: FC = () => {
   return (
     <section className="w-full flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10">
-      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between items-start space-y-8 lg:space-y-0">
-        <Float>
-          <Satellite className="w-full max-w-xs" />
-        </Float>
+      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between items-start space-y-8 lg:space-y-0 gap-44">
+        <Satellite className="w-full max-w-xs" />
         <div>
           <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
             <EmphasisWorkExperience className="absolute -top-10 -right-32 w-12" />
@@ -35,30 +33,6 @@ const WorkExperience: FC = () => {
                   modern-looking, responsive and dynamic user interface that
                   received many compliments from co-workers and clients.
                 </li>
-                <li>
-                  Optimized search engine as well as the website's loading times
-                  by properly implementing React server components with Next.JS
-                  v13, resulting in a more than 60% decrease in page load times.
-                </li>
-                <li>
-                  Collaborated closely with a fellow developer to conceptualize
-                  and build a full-stack mobile application using React Native,
-                  Node.JS and Typescript. This app allows users to control home
-                  devices while also monitoring solar energy consumption data
-                  through a RESTful API that performs CRUD operations on a
-                  PostgreSQL database with a secure token-based authentication
-                  system.
-                </li>
-                <li>
-                  Completed over 300 hours of Udemy courses on several
-                  Javascript frameworks and libraries, demonstrating commitment
-                  to staying updated with industry trends.
-                </li>
-                <li>
-                  Currently conducting and monitoring several strategic
-                  experiments and refining experiences based on metrics from
-                  Google Analytics.
-                </li>
               </ul>
             </div>
             <div className="flex flex-col space-y-3">
@@ -76,30 +50,13 @@ const WorkExperience: FC = () => {
                   Maintained a 4.7 rating on Fiverr by consistently delivering
                   high-quality solutions on time and within budget.
                 </li>
-                <li>
-                  Forged long-term relationships through effective
-                  communication, understanding client needs, and translating
-                  them into functional and aesthetically pleasing user
-                  interfaces.
-                </li>
-                <li>
-                  Transitioned several clients from outdated websites to modern
-                  and responsive designs, leading to an increase in user
-                  engagement and an improved online presence for their
-                  businesses.
-                </li>
-                <li>
-                  Currently conducting and monitoring several strategic
-                  experiments and refining experiences based on metrics from
-                  Google Analytics.
-                </li>
               </ul>
             </div>
           </div>
         </div>
       </article>
 
-      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between space-y-8 lg:space-y-0 items-start">
+      <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between space-y-8 lg:space-y-0 items-start gap-44">
         <HomemadeSpaceship className="w-full max-w-[18rem]" />
 
         <div>
@@ -122,40 +79,6 @@ const WorkExperience: FC = () => {
                   with end-to-end type safety and following all clean-code
                   principles.
                 </li>
-                <li>
-                  Created and consumed a RESTful API that performs CRUD
-                  operations on a PostgreSQL database, also with end-to-end type
-                  safety and following all clean-code principles (using Node.JS
-                  and Express).
-                </li>
-                <li>
-                  Implemented a secure and stateless authentication with JWT and
-                  HTTP-only cookies, following the RESTful architecture.
-                </li>
-                <li>
-                  Implemented an advanced movie filtering and pagination system
-                  with “infinite scroll” and automatic searching on each
-                  keystroke.
-                </li>
-                <li>
-                  Implemented an intuitive and easy-to-use administrator
-                  interface that is seamlessly integrated with the
-                  filtering/pagination system.
-                </li>
-                <li>
-                  Implemented a “my list” functionality with optimistic UI
-                  rendering.
-                </li>
-                <li>Implemented E2E tests using Cypress.</li>
-                <li>
-                  Facilitated horizontal scaling and prevented compatibility
-                  issues by implementing a microservices architecture using
-                  Docker, Docker Compose and NGINX.
-                </li>
-                <li>
-                  Deployed to Google Cloud Platform with a CI/CD pipeline
-                  integrated.
-                </li>
               </ul>
             </div>
             <div className="flex flex-col space-y-3">
@@ -175,26 +98,6 @@ const WorkExperience: FC = () => {
                   Implemented OAuth authentication for seamless and secure user
                   registration and login using industry-standard authentication
                   providers.
-                </li>
-                <li>
-                  Created a dynamic and intuitive GraphQL API that efficiently
-                  manages chat messages and user interactions, enhancing the
-                  real-time nature of the application.
-                </li>
-                <li>
-                  Established a robust WebSocket-based communication system,
-                  enabling real-time, bidirectional data flow and live updates
-                  for a seamless chat experience.
-                </li>
-                <li>
-                  Developed a fluid and responsive user interface using Next.js,
-                  allowing for optimized server-side rendering and enhanced
-                  performance.
-                </li>
-                <li>
-                  Leveraged TypeScript's static typing to ensure code integrity
-                  and reduce runtime errors, resulting in a more stable and
-                  maintainable codebase.
                 </li>
               </ul>
             </div>

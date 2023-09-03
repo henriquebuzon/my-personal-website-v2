@@ -7,7 +7,7 @@ const HeaderB = () => {
   return (
     <header className="relative flex justify-center bg-dark-blue text-center text-white ">
       <Sun className="absolute -top-14 w-36" />
-      <div className="relative flex flex-col items-center justify-center w-full max-w-[1250px] py-64">
+      <div className="relative flex flex-col items-center justify-center w-full max-w-[1250px] py-56">
         <ImagesHeaderB />
         <h1 className="leading-loose">
           I build websites that are <br />
