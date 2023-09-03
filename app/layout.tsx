@@ -18,9 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} bg-[#f0edf1] text-dark-purple text-xl`}
-      >
+      <body className={`${inter.className} bg-white text-dark-purple text-lg`}>
         <div className="hidden xl:block">
           <Navbar />
         </div>

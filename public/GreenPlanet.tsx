@@ -19,6 +19,7 @@ const GreenPlanet: FC<Props> = ({ className }) => {
         duration: 1.5,
         repeat: Infinity,
         repeatType: 'reverse',
+        ease: 'easeInOut',
       }}
     >
       <style>

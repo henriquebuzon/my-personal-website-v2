@@ -20,6 +20,7 @@ const MeteorOnfire: FC<Props> = ({ className }) => {
         repeat: Infinity,
         repeatType: 'reverse',
         delay: 0.1,
+        ease: 'easeInOut',
       }}
     >
       <title>Meteor falling</title>

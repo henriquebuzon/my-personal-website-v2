@@ -20,6 +20,7 @@ const AlienSpaceshipMoving: FC<Props> = ({ className }) => {
         repeat: Infinity,
         repeatType: 'reverse',
         delay: 0.2,
+        ease: 'easeInOut',
       }}
     >
       <style>

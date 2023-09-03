@@ -5,9 +5,9 @@ import AlienSpaceshipMoving from '@/public/AlienSpaceshipMoving'
 
 const HeaderB = () => {
   return (
-    <header className="relative flex justify-center bg-dark-blue text-center text-white  mb-32">
+    <header className="relative flex justify-center bg-dark-blue text-center text-white ">
       <Sun className="absolute -top-14 w-36" />
-      <div className="relative flex flex-col items-center justify-center w-full max-w-[1250px] py-44">
+      <div className="relative flex flex-col items-center justify-center w-full max-w-[1250px] py-64">
         <ImagesHeaderB />
         <h1 className="leading-loose">
           I build websites that are <br />
@@ -16,7 +16,7 @@ const HeaderB = () => {
           </span>
         </h1>
 
-        <button className="px-12 py-4 rounded-full border-white border-[3px] mt-5  font-bold hover:scale-110 transition">
+        <button className="px-12 py-4 rounded-full border-white border-2 mt-5  font-bold hover:scale-110 transition">
           Tell me more
         </button>
       </div>

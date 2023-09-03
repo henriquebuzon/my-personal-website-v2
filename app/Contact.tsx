@@ -55,28 +55,28 @@ const Contact: FC = () => {
         >
           <input
             type="text"
-            className="bg-transparent py-4 rounded-full border-dark-purple border-[3px] mt-5 px-8 w-full"
+            className="bg-transparent py-3 rounded-[2.2rem] border-dark-purple border-[3px] mt-5 px-6 w-full"
             placeholder="Your name"
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
           <input
             type="text"
-            className="bg-transparent py-4 rounded-full border-dark-purple border-[3px] mt-5 px-8 w-full"
+            className="bg-transparent py-3 rounded-[2.2rem] border-dark-purple border-[3px] mt-5 px-6 w-full"
             placeholder="Your email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
           <textarea
-            rows={6}
-            className="bg-transparent py-4 rounded-[2.2rem] border-dark-purple border-[3px] mt-5 px-8 w-full"
+            rows={3}
+            className="bg-transparent py-3 rounded-[2.2rem] border-dark-purple border-[3px] mt-5 px-6 w-full"
             placeholder="Your message"
             onChange={(e) => setMessage(e.target.value)}
             value={message}
           />
           <input
             type="submit"
-            className="py-4 bg-pink rounded-full border-dark-purple border-[3px] font-bold w-full cursor-pointer"
+            className="py-3 bg-pink rounded-[2.2rem] border-dark-purple border-[3px] font-bold w-full cursor-pointer"
             value="Send"
           />
         </form>

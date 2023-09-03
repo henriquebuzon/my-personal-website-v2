@@ -20,6 +20,7 @@ const SpaceshipOFF: FC<Props> = ({ className }) => {
         repeat: Infinity,
         repeatType: 'reverse',
         delay: 0.4,
+        ease: 'easeInOut',
       }}
     >
       <title>Space ship turned off</title>

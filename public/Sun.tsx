@@ -1,5 +1,6 @@
-import Pulse from '@/animators/Pulse'
-import Spin from '@/animators/Spin'
+'use client'
+
+import { motion } from 'framer-motion'
 import React, { FC } from 'react'
 
 interface Props {
@@ -8,11 +9,17 @@ interface Props {
 
 const Sun: FC<Props> = ({ className }) => {
   return (
-    <svg
+    <motion.svg
       version="1.2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 175 180"
       className={className}
+      animate={{ rotate: 360 }}
+      transition={{
+        ease: 'linear',
+        duration: 35,
+        repeat: Infinity,
+      }}
     >
       <style>
         {`.sun .s0 { fill: #f2c45d }
@@ -653,7 +660,7 @@ const Sun: FC<Props> = ({ className }) => {
           d="m71.4 62.5c1.9-1.7 3.9-2.3 6.3-2.7 0.3-0.1 0.3-0.6 0-0.6-2.5-0.3-5 1.2-6.7 2.8-0.3 0.3 0.1 0.8 0.4 0.5z"
         />
       </g>
-    </svg>
+    </motion.svg>
   )
 }
 

@@ -20,6 +20,7 @@ const PlanetWithRing: FC<Props> = ({ className }) => {
         repeat: Infinity,
         repeatType: 'reverse',
         delay: 0.3,
+        ease: 'easeInOut',
       }}
     >
       <title>Planet with ring</title>
