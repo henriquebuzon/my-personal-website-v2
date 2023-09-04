@@ -9,7 +9,7 @@ const AboutMe: FC = () => {
         <Astronaut className="w-full lg:w-1/4 px-5 max-w-xs" />
         <div className="w-full lg:w-3/4">
           <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
-            <EmphasisPersonalProjects className="absolute -top-5 -right-28 w-12 rotate-180 fill-green-500" />
+            <EmphasisPersonalProjects className="absolute -top-5 -right-28 w-12 rotate-180 fill-green-500 hidden lg:block" />
             <span className="text-pink">About</span> me
           </h2>
           <div className="flex flex-col space-y-4 text-[#3c1a3e] font-medium">

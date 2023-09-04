@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-white text-lg font-medium`}>
-        <div className="hidden xl:block">
+        <div className="hidden md:block">
           <Navbar />
         </div>
-        <div className="block xl:hidden">
+        <div className="block md:hidden">
           <MobileNavbar />
         </div>
         {children}

@@ -10,7 +10,7 @@ const PersonalProjects = () => {
 
         <div className="w-full lg:w-3/4">
           <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
-            <EmphasisPersonalProjects className="absolute -top-10 -right-32 w-12" />
+            <EmphasisPersonalProjects className="absolute -top-10 -right-32 w-12 hidden lg:block" />
             <span className="text-pink">Personal</span> projects
           </h2>
           <div className="flex flex-col space-y-10">

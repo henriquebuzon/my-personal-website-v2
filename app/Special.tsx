@@ -10,7 +10,7 @@ const Special = () => {
     <section className="mb-44 flex flex-col gap-14 items-center w-full max-w-[1250px] pt-36">
       <h2 className="relative font-extrabold text-3xl lg:text-5xl ">
         What makes them so <span className="text-medium-blue ">special?</span>
-        <EmphasisAboutMe className="absolute -top-12 -right-28 w-12" />
+        <EmphasisAboutMe className="absolute -top-12 -right-28 w-12 hidden lg:block" />
       </h2>
 
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-full">
