@@ -6,7 +6,7 @@ import SpaceshipOFF from '@/public/SpaceshipOFF'
 import Sun from '@/public/Sun'
 import { FC } from 'react'
 
-const ImagesHeaderB: FC = () => {
+const ImagesHeader: FC = () => {
   return (
     <>
       <div className="hidden lg:block">
@@ -20,4 +20,4 @@ const ImagesHeaderB: FC = () => {
   )
 }
 
-export default ImagesHeaderB
+export default ImagesHeader
