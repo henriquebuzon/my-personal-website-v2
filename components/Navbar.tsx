@@ -5,9 +5,12 @@ import React, { FC } from 'react'
 const Navbar: FC = () => {
   return (
     <div className="flex justify-between items-center w-full max-w-[1250px] mx-auto py-7">
-      <Link href="/" className="font-semibold text-xl">
+      <Link
+        href="/"
+        className="flex items-center justify-center font-semibold text-xl"
+      >
         <span>
-          <AlienHead className="w-8 inline mr-5" />
+          <AlienHead className="w-8 mr-5" />
         </span>
         HenriqueBM
       </Link>
