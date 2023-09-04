@@ -23,8 +23,6 @@ const SpaceshipOFF: FC<Props> = ({ className }) => {
         ease: 'easeInOut',
       }}
     >
-      <title>Space ship turned off</title>
-
       <style>
         {`.spaceship-off .s0 { fill: #c3b8aa } 
 	  .spaceship-off .s1 { fill: #cea03e } 

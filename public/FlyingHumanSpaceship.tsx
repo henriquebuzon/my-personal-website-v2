@@ -12,7 +12,6 @@ const FlyingHumanSpaceship: FC<Props> = ({ className }) => {
       viewBox="0 0 107 203"
       className={className}
     >
-      <title>Space ship</title>
       <style>
         {`.FlyingHumanSpaceship .s0 { fill: #a4aea3 } 
 		.FlyingHumanSpaceship .s1 { fill: #c2c9c0 } 

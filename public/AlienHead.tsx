@@ -12,7 +12,6 @@ const AlienHead: FC<Props> = ({ className }) => {
       viewBox="0 0 71 75"
       className={className}
     >
-      <title>Alien Head</title>
       <style>
         {`.alien-head .s0 { fill: #48b17b } 
 	  .alien-head .s1 { fill: #327f51 } 

@@ -12,7 +12,6 @@ const Satellite: FC<Props> = ({ className }) => {
       viewBox="0 0 154 142"
       className={className}
     >
-      <title>Satellite</title>
       <style>
         {`.satellite .s0 { fill: #857778 } 
 	  .satellite .s1 { fill: #615d5c } 

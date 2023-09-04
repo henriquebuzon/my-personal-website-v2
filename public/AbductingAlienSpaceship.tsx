@@ -12,7 +12,6 @@ const AbducingAlienSpaceship: FC<Props> = ({ className }) => {
       viewBox="0 0 119 133"
       className={className}
     >
-      <title>Abducing alien space ship</title>
       <style>
         {`.abducting-space-ship .s0 { fill: #9f5b42 } 
 		.abducting-space-ship .s1 { fill: #7e3f2e } 

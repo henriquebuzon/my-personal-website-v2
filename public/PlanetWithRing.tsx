@@ -23,7 +23,6 @@ const PlanetWithRing: FC<Props> = ({ className }) => {
         ease: 'easeInOut',
       }}
     >
-      <title>Planet with ring</title>
       <style>
         {`.ring-planet .s0 { fill: #8caed7 } 
       .ring-planet .s1 { fill: #4c7da2 } 

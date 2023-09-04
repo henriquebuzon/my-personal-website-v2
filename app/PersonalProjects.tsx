@@ -6,9 +6,9 @@ const PersonalProjects = () => {
   return (
     <section className="w-full flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10">
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between space-y-8 lg:space-y-0 items-start gap-44">
-        <HomemadeSpaceship className="w-1/4" />
+        <HomemadeSpaceship className="w-full lg:w-1/4 px-3" />
 
-        <div className="w-3/4">
+        <div className="w-full lg:w-3/4">
           <h2 className="font-extrabold text-3xl lg:text-5xl relative mb-5 lg:mb-10 w-fit">
             <EmphasisPersonalProjects className="absolute -top-10 -right-32 w-12" />
             <span className="text-pink">Personal</span> projects

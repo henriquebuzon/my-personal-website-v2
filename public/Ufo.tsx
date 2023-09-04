@@ -12,8 +12,6 @@ const Ufo: FC<Props> = ({ className }) => {
       viewBox="0 0 118 100"
       className={className}
     >
-      <title>UFO</title>
-
       <style>
         {`.ufo .s0 { fill: #857778 } 
 	  .ufo .s1 { fill: #c25d50 } 

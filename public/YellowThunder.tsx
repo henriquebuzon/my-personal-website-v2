@@ -12,7 +12,6 @@ const YellowThunder: FC<Props> = ({ className }) => {
       viewBox="0 0 131 89"
       className={className}
     >
-      <title>Yellow thunder</title>
       <style>
         {`.yellow-thunder .s0 { fill: #f3b643 } 
 		.yellow-thunder .s1 { fill: #260029 } `}

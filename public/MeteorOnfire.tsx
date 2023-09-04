@@ -23,7 +23,6 @@ const MeteorOnfire: FC<Props> = ({ className }) => {
         ease: 'easeInOut',
       }}
     >
-      <title>Meteor falling</title>
       <style>
         {`.meteor-onfire .s0 { fill: #e69c43 } 
 		.meteor-onfire .s1 { fill: #ffb84a } 
