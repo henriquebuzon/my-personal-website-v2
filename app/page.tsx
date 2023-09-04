@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -9,6 +10,8 @@ import WorkExperience from './WorkExperience'
 export default function Home() {
   return (
     <>
+      <Navbar />
+
       <Header />
 
       <main className="flex flex-col justify-center items-center w-full ">

@@ -4,12 +4,11 @@ interface Props {
   className?: string
 }
 
-const MenuIcon: FC<Props> = ({ className }) => {
+const MenuOpenIcon: FC<Props> = ({ className }) => {
   return (
     <svg
       className={className}
       viewBox="0 0 24 24"
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
@@ -22,4 +21,4 @@ const MenuIcon: FC<Props> = ({ className }) => {
   )
 }
 
-export default MenuIcon
+export default MenuOpenIcon

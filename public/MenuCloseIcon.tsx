@@ -4,7 +4,7 @@ interface Props {
   className?: string
 }
 
-const MenuClose: FC<Props> = ({ className }) => {
+const MenuCloseIcon: FC<Props> = ({ className }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,4 +20,4 @@ const MenuClose: FC<Props> = ({ className }) => {
   )
 }
 
-export default MenuClose
+export default MenuCloseIcon
