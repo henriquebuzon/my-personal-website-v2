@@ -1,6 +1,4 @@
-import EmphasisPersonalProjects from '@/public/EmphasisPersonalProjects'
 import EmphasisWorkExperience from '@/public/EmphasisWorkExperience'
-import HomemadeSpaceship from '@/public/HomemadeSpaceship'
 import Satellite from '@/public/Satellite'
 import { FC } from 'react'
 

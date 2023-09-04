@@ -27,15 +27,16 @@ const AboutMe: FC = () => {
 
             <p>
               Fast forward to 2020, I made the shift to Hi-Tec Inovações, where
-              I've been contributing to making the world a better place by
+              I&apos;ve been contributing to making the world a better place by
               delivering high-quality software in the realm of solar energy
               solutions.
             </p>
 
             <p>
-              When I'm not immersed in lines of code, I'm out exploring. Whether
-              it's a new hiking trail or the mysteries of the cosmos in
-              astronomy documentaries, I'm fueled by curiosity.
+              When I&apos;m not immersed in lines of code, I&apos;m out
+              exploring. Whether it&apos;s a new hiking trail or the mysteries
+              of the cosmos in astronomy documentaries, I&apos;m fueled by
+              curiosity.
             </p>
           </div>
         </div>
