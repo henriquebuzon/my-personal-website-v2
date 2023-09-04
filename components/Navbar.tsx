@@ -33,7 +33,7 @@ const Navbar: FC<Props> = ({ isMenu }) => {
         <ul className="flex items-center space-x-8 font-medium text-[#674d69]">
           <li>
             <Link
-              href="/energia-solar"
+              href="/#about"
               className="hover:text-dark-purple transition-colors"
             >
               About
@@ -41,7 +41,7 @@ const Navbar: FC<Props> = ({ isMenu }) => {
           </li>
           <li>
             <Link
-              href="/automacao-residencial"
+              href="/#work"
               className="hover:text-dark-purple transition-colors"
             >
               Work
@@ -49,7 +49,7 @@ const Navbar: FC<Props> = ({ isMenu }) => {
           </li>
           <li>
             <Link
-              href="/home-cinema"
+              href="/#contact"
               className="hover:text-dark-purple transition-colors"
             >
               Contact

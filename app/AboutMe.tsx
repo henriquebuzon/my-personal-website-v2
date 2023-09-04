@@ -4,7 +4,10 @@ import { FC } from 'react'
 
 const AboutMe: FC = () => {
   return (
-    <section className="w-full flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10">
+    <section
+      className="w-full flex flex-col items-center space-y-44 pb-36 lg:pb-56 px-3 lg:px-10"
+      id="about"
+    >
       <article className="max-w-[1250px] w-full flex flex-col lg:flex-row-reverse justify-between items-start space-y-8 lg:space-y-0 gap-2 md:gap-20 lg:gap-44">
         <Astronaut className="w-full lg:w-1/4 px-5 max-w-xs" />
         <div className="w-full lg:w-3/4">

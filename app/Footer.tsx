@@ -20,7 +20,7 @@ const Footer: FC = () => {
           <ul className="flex flex-row font-semibold gap-8 ">
             <li>
               <a
-                href="https://www.linkedin.com/in/henriquebuzon/"
+                href="https://www.linkedin.com/in/henriquedevelops/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,7 +29,7 @@ const Footer: FC = () => {
             </li>
             <li>
               <a
-                href="https://www.github.com/in/henriquebuzon/"
+                href="https://www.github.com/henriquedevelops"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -38,7 +38,7 @@ const Footer: FC = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/henrique/"
+                href="https://drive.google.com/file/d/1zpnCeNKuexYM89_vMy8QRbW3v1Z3wPv1/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
