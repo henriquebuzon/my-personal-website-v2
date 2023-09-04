@@ -12,7 +12,7 @@ const AboutMe: FC = () => {
             <EmphasisPersonalProjects className="absolute -top-5 -right-28 w-12 rotate-180 fill-green-500" />
             <span className="text-pink">About</span> me
           </h2>
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 text-[#3c1a3e] font-medium">
             <p>
               I am a full-stack software developer and UX/UI designer who had
               the pleasure of working on both web and mobile applications.

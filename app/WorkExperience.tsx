@@ -18,11 +18,16 @@ const WorkExperience: FC = () => {
             <div className="flex flex-col space-y-3">
               <h3 className="text-xl font-bold">
                 Full-stack software engineer & UX/UI designer @{' '}
-                <a href="" className="text-medium-blue underline">
+                <a
+                  href="https://www.hitecsolar.com.br/"
+                  className="text-medium-blue underline"
+                >
                   Hi-tec Inovações
                 </a>
               </h3>
-              <em className="opacity-80">2020 - Present</em>
+              <p>
+                <em className="opacity-80">2020 - Present</em>
+              </p>
               <p>
                 Hi-tec is a dynamic company at the forefront of solar energy and
                 home automation solutions. In my role as a UX/UI Designer and
@@ -34,7 +39,9 @@ const WorkExperience: FC = () => {
               <h3 className="text-xl font-bold">
                 Web developer & UX/UI designer @ Freelance
               </h3>
-              <em className="opacity-80">2015 - 2020</em>
+              <p>
+                <em className="opacity-80">2015 - 2020</em>
+              </p>
               <p>
                 Workind independently I have gained valuable experience in
                 understanding customers needs, communicating effectively and
