@@ -18,7 +18,7 @@ const WorkExperience: FC = () => {
             <div className="flex flex-col space-y-3">
               <h3 className="text-xl font-bold">
                 Full-stack software engineer & UX/UI designer @{' '}
-                <a href="" className="text-dark-blue underline">
+                <a href="" className="text-medium-blue underline">
                   Hi-tec Inovações
                 </a>
               </h3>

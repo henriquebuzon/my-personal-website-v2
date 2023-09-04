@@ -12,7 +12,6 @@ const EmphasisPersonalProjects: FC<Props> = ({ className }) => {
       viewBox="0 0 52 45"
       className={className}
     >
-      <title>Emphasis personal projects</title>
       <path
         id="&lt;Compound Path&gt;"
         fill="#df71a0"
