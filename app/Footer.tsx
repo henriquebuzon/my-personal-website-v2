@@ -13,7 +13,7 @@ const Footer: FC = () => {
 
       <div className="w-full z-50  flex flex-col md:flex-row items-center justify-center text-sm gap-5">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center w-screen max-w-[1250px]   p-10  gap-5 md:gap-0">
-          <p className="opacity-80">
+          <p className="opacity-80 text-white">
             &copy; Copyright 2021 by{' '}
             <strong className="font-semibold">Henrique Macedo</strong>
           </p>
