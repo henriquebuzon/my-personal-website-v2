@@ -1,6 +1,6 @@
-import Astronaut from '@/public/Astronaut'
-import EmphasisPersonalProjects from '@/public/EmphasisPersonalProjects'
-import { FC } from 'react'
+import Astronaut from "@/public/Astronaut";
+import EmphasisPersonalProjects from "@/public/EmphasisPersonalProjects";
+import { FC } from "react";
 
 const AboutMe: FC = () => {
   return (
@@ -17,35 +17,39 @@ const AboutMe: FC = () => {
           </h2>
           <div className="flex flex-col space-y-4 text-[#3c1a3e] font-medium">
             <p>
-              I am a full-stack software developer and UX/UI designer who had
-              the pleasure of working on both web and mobile applications.
+              Highly experienced software engineer with a strong emphasis on
+              front-end development using React, Typescript and Next.JS.
             </p>
 
             <p>
               My journey started back in 2015, as a freelancer. Attention to
               detail and sharp communication skills enabled me to build
               long-term relationships with clients from diverse backgrounds and
-              cultures.{' '}
+              cultures.
             </p>
 
             <p>
               Fast forward to 2020, I made the shift to Hi-Tec Inovações, where
-              I&apos;ve been contributing to making the world a better place by
-              delivering high-quality software in the realm of solar energy
-              solutions.
+              I&apos;ve had my first experience working on a team as a full-time
+              employee and discovered my passion for working collaboratively.
             </p>
 
             <p>
-              When I&apos;m not immersed in lines of code, I&apos;m out
-              exploring. Whether it&apos;s a new hiking trail or the mysteries
-              of the cosmos in astronomy documentaries, I&apos;m fueled by
-              curiosity.
+              After that, I've had the opportunity to work several different
+              teams and continued to improve my skills on a day-to-day basis.
             </p>
+
+            <p>
+              When I&apos;m not immersed in lines of code, I enjoy exploring the
+              mysteries of the cosmos through astronomy documentaries and books.
+            </p>
+
+            <p>I&apos;m driven by curiosity.</p>
           </div>
         </div>
       </article>
     </section>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
